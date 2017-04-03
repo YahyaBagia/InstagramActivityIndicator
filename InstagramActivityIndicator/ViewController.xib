@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="activityIndicator" destination="3sa-vO-0i0" id="ifE-wG-DEZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="smallActivityIndicators" destination="JkD-Hy-X6k" id="tR3-ft-Rfw"/>
+                <outletCollection property="smallActivityIndicators" destination="lOs-ek-fcy" id="LTh-vO-ukq"/>
+                <outletCollection property="smallActivityIndicators" destination="aSi-Pt-NtT" id="W75-Uc-scA"/>
+                <outletCollection property="smallActivityIndicators" destination="g3u-JS-qKx" id="xgt-L9-jwx"/>
+                <outletCollection property="smallActivityIndicators" destination="T5A-gv-HyO" id="bfx-Bm-CGf"/>
+                <outletCollection property="smallActivityIndicators" destination="GNa-6n-m9d" id="rBi-Nb-xp1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JkD-Hy-X6k" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="33" y="30" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="C8l-Om-wVg"/>
+                        <constraint firstAttribute="width" constant="60" id="yQo-2u-Har"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.95294117647058818" green="0.2627450980392157" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOs-ek-fcy" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="130" y="30" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ZC2-cO-OtI"/>
+                        <constraint firstAttribute="height" constant="60" id="tiS-mK-BrG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.0" green="0.73333333333333328" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSi-Pt-NtT" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="225" y="30" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="3iQ-Kp-tVE"/>
+                        <constraint firstAttribute="height" constant="60" id="5FL-Uk-cBO"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.99607843137254903" green="0.91764705882352937" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-JS-qKx" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="33" y="115" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="LLZ-8p-z8c"/>
+                        <constraint firstAttribute="width" constant="60" id="saX-MR-jcY"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.29803921568627451" green="0.68627450980392157" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5A-gv-HyO" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="130" y="115" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ZR3-zr-1lE"/>
+                        <constraint firstAttribute="height" constant="60" id="gNb-y0-dul"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.61568627450980395" green="0.61568627450980395" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-6n-m9d" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="225" y="115" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ItP-3A-r3m"/>
+                        <constraint firstAttribute="width" constant="60" id="tVh-lW-6Pz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" red="0.12941176470588234" green="0.58431372549019611" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cB9-HW-ker">
+                    <rect key="frame" x="24" y="200" width="272" height="35"/>
+                    <color key="backgroundColor" red="0.011764705882352941" green="0.6588235294117647" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="J7K-WU-xqq"/>
+                    </constraints>
+                    <state key="normal" title="START / STOP">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnStartStopClicked:" destination="-1" eventType="touchUpInside" id="Rzs-Hs-73e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsk-jj-P26">
+                    <rect key="frame" x="24" y="521" width="272" height="35"/>
+                    <color key="backgroundColor" red="0.01176470588" green="0.6588235294" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="8q2-cV-WKc"/>
+                    </constraints>
+                    <state key="normal" title="START / STOP">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnStartStopClicked:" destination="-1" eventType="touchUpInside" id="p16-XZ-1w1"/>
+                    </connections>
+                </button>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3sa-vO-0i0" customClass="InstagramActivityIndicator">
+                    <rect key="frame" x="110" y="395" width="101" height="101"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="101" id="1sF-mD-cAk"/>
+                        <constraint firstAttribute="width" constant="101" id="qsn-GQ-BTh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numSegments">
+                            <integer key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rotationDuration">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.21568627450980393" green="0.25098039215686274" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vsk-jj-P26" secondAttribute="trailing" constant="24" id="2OG-xa-uc1"/>
+                <constraint firstItem="g3u-JS-qKx" firstAttribute="top" secondItem="JkD-Hy-X6k" secondAttribute="bottom" constant="25" id="5GX-m8-bjJ"/>
+                <constraint firstItem="cB9-HW-ker" firstAttribute="top" secondItem="GNa-6n-m9d" secondAttribute="bottom" constant="25" id="9He-qD-vqu"/>
+                <constraint firstItem="lOs-ek-fcy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9N5-Kn-BkK"/>
+                <constraint firstItem="vsk-jj-P26" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="Bfu-AI-oOK"/>
+                <constraint firstAttribute="trailing" secondItem="aSi-Pt-NtT" secondAttribute="trailing" constant="35" id="Dmy-ym-Vny"/>
+                <constraint firstAttribute="trailing" secondItem="GNa-6n-m9d" secondAttribute="trailing" constant="35" id="Exu-4R-qEg"/>
+                <constraint firstAttribute="trailing" secondItem="cB9-HW-ker" secondAttribute="trailing" constant="24" id="G3j-kf-JMo"/>
+                <constraint firstItem="GNa-6n-m9d" firstAttribute="top" secondItem="aSi-Pt-NtT" secondAttribute="bottom" constant="25" id="Lax-i9-fEU"/>
+                <constraint firstItem="JkD-Hy-X6k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="OCN-1N-vYu"/>
+                <constraint firstItem="T5A-gv-HyO" firstAttribute="top" secondItem="lOs-ek-fcy" secondAttribute="bottom" constant="25" id="T4W-43-Nca"/>
+                <constraint firstItem="g3u-JS-qKx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="UeK-oD-IBk"/>
+                <constraint firstItem="cB9-HW-ker" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="dxY-L1-2cL"/>
+                <constraint firstItem="JkD-Hy-X6k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="eeK-Qz-7Df"/>
+                <constraint firstItem="vsk-jj-P26" firstAttribute="top" secondItem="3sa-vO-0i0" secondAttribute="bottom" constant="25" id="hEk-d5-X8I"/>
+                <constraint firstAttribute="bottom" secondItem="vsk-jj-P26" secondAttribute="bottom" constant="12" id="jTZ-jR-IMq"/>
+                <constraint firstItem="lOs-ek-fcy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="r7h-FV-VEW"/>
+                <constraint firstItem="T5A-gv-HyO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s4s-A6-2gm"/>
+                <constraint firstItem="3sa-vO-0i0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xAt-Ab-CSu"/>
+                <constraint firstItem="aSi-Pt-NtT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="ytw-xb-qGD"/>
+            </constraints>
+            <point key="canvasLocation" x="157" y="-397"/>
+        </view>
+    </objects>
+</document>
