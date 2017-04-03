@@ -30,7 +30,7 @@
     indicator.rotationDuration = 10;
     indicator.animationDuration = 1.0;
     indicator.center = self.view.center;
-    //[self.view addSubview:indicator];
+    [self.view addSubview:indicator];
     [indicator startAnimating];
 
 }
