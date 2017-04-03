@@ -9,9 +9,13 @@ Copy InstagramActivityIndicator.h & InstagramActivityIndicator.m files into XCod
 
 ### Usage / Installation
 #### 1. Using Interface Builder
+
 - Add a UIView on XIB / Storyboard from Interface Builder and change its class from UIView to InstagramActivityIndicator.
+
 ![](https://github.com/YahyaBagia/InstagramActivityIndicator/blob/master/InstagramActivityIndicator/img_AttributeInspector.png)
+
 - Customize its properties through Attribute Inspector.
+
 ![](https://github.com/YahyaBagia/InstagramActivityIndicator/blob/master/InstagramActivityIndicator/img_IdentityInspector.png)
 
 #### 2. Via Code
