@@ -1,5 +1,5 @@
 # InstagramActivityIndicator (ObjC)
-Activity Indicator similar to Instagram's. It is an Objective-C port of [InstagramActivityIndicator](https://github.com/jmmanos/InstagramActivityIndicator)
+Activity Indicator similar to Instagram's. It is an Objective-C port of [InstagramActivityIndicator](https://github.com/jmmanos/InstagramActivityIndicator).
 
 ### Screenshot
 ![](https://github.com/YahyaBagia/InstagramActivityIndicator/blob/master/InstagramActivityIndicator/InstagramActivityIndicator.gif)
