@@ -15,6 +15,7 @@ Copy InstagramActivityIndicator.h & InstagramActivityIndicator.m files into XCod
 ![](https://github.com/YahyaBagia/InstagramActivityIndicator/blob/master/InstagramActivityIndicator/img_IdentityInspector.png)
 
 - Customize its properties through Attribute Inspector.
+
 ![](https://github.com/YahyaBagia/InstagramActivityIndicator/blob/master/InstagramActivityIndicator/img_AttributeInspector.png)
 
 
